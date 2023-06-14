@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css ">
+   <title>Завдання 0</title>
+</head>
+<body class="body-task">
+   <script>
+      //Введення данних
+      let firstName = prompt("Введіть ім'я першої дитини");
+      let secondName = prompt("Введіть ім'я другої дитини");
+      let firstChildrenNum = parceInt(prompt('Введіть кількість цукерок у першої дитини'));
+      let secondChildrenNum = parceInt(prompt('Введіть кількість цукерок у другої дитини'));
+
+      //Обчислення данних та Виведення данних
+      
+      if (firstChildrenNum > secondChildrenNum)
+         alert(`У ${firstName} більше цукерок`);
+      else if (firstChildrenNum < secondChildrenNum)
+         alert(`У ${secondName} більше цукерок`);
+      else 
+         alert(`Кількість цукерок однакова`);
+   </script>
+</body>
+</html>

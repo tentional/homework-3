@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css ">
+   <title>Завдання 4</title>
+</head>
+<body>
+   <script>
+      let driverСategory = prompt('Введіть Вашу категорію водія');
+      let result;
+      switch (driverСategory){
+         case 'A': result='Мотоцикл';
+            break;
+         case 'B': result='Легковий автомобіль';
+            break;
+         case 'C': result='Вантажний автомобіль';
+            break;
+         default: result='Ви ввели неправильну категорію водія'
+      }
+      alert(result);
+   </script>
+</body>
+</html>

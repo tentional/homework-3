@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css ">
+   <title>Завдання 3</title>
+</head>
+<body>
+   <script>
+
+      //Обчислення данних та виведення данних
+       let userAge = parseInt(prompt('Ваш вік','25'));
+       let result;
+         if (userAge < 1 || userAge > 150) result = 'Некоректний вік';
+         else if (userAge <= 6) result = 'Дитина у садочку';
+         else if (userAge <= 17) result = 'Дитина у школі';
+         else if (userAge <= 25) result = 'Студент';
+         else if (userAge <= 60) result = 'Працівник';
+         else result = 'Пенсіонер';
+            alert(result)
+   </script>
+</body>
+</html>

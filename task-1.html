@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/style.css ">
+   <link rel="stylesheet" href="./js/script.js">
+   <title>Завдання 1</title>
+</head>
+<body>
+   <script>
+      //Вводимо данні
+      let priceProduct = parseFloat(prompt('Ціна товару'));
+      let amountMoney = parseFloat(prompt('Кількість грошей'));
+
+      //Обчислюємо та виводимо данні
+      if (priceProduct - amountMoney < 0)
+         alert ('Оплата не пройшла, на карті не вистачає коштів');
+      else 
+         alert ('Пропонуємо взяти лотерею за 4 гривні')
+   </script>
+</body>
+</html>
